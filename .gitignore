@@ -1,0 +1,13 @@
+.cabal-sandbox/
+dist/
+cabal.sandbox.config
+.project-settings.yml
+.idea/
+.stack-work/
+dist-stack/
+*.iml
+*.*~
+PRIVATE_API_KEY
+hscope.out
+codex.tags
+

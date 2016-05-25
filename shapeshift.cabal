@@ -1,0 +1,30 @@
+name:                shapeshift
+version:             0.1.0.0
+synopsis:            Haskell bindings to the Shapeshift.io cryptocurrency exchange.
+description:         Please see README.md
+homepage:            https://github.com/tebello-thejane/shapeshift-haskell
+license:             BSD3
+license-file:        LICENSE
+author:              Tebello Thejane
+maintainer:          Tebello Thejane <zyxoas+hackage@gmail.com>
+copyright:           2016 Tebello Thejane
+category:            Network, Finance, Bitcoin, Cryptocurrencies, Litecoin, Ethereum
+build-type:          Simple
+extra-source-files:
+  README.md
+  CHANGES
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Network.Bitcoin.ShapeShift
+  build-depends:       base >= 4.7 && < 5,
+                       text,
+                       microlens,
+                       microlens-th
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/tebello-thejane/shapeshift-haskell
+
